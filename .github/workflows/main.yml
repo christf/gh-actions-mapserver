@@ -3,6 +3,9 @@ name: Process Maps
 env:
   GIT_EDITOR: true
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '30 1 * * *'
